@@ -36,7 +36,7 @@ body{
     border-radius: 50%;
     border: 10px solid rgba(64, 62, 62, 0.842);
     box-shadow: 0px 0px 35px rgb(46, 38, 38,0.9);
-    background-image: url(./img/clock.png);
+    background-image: url(./clock.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
