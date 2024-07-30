@@ -1,0 +1,81 @@
+body{
+    background-image: linear-gradient(to right, #f71078e2,#8e16dede,#365af7,#4cc9f0);
+    /* background-image: linear-gradient(to right, rgba(239, 11, 11, 0.902),rgba(17, 17, 232, 0.911));  */
+}
+.header{
+    text-shadow: 2px 2px rgba(39, 36, 36, 0.831);
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 90px;
+
+}
+.dig_time{
+    width:100px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 17px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.578);
+    height: 30px;
+    margin: auto;
+    position: relative;
+    top: 95px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.div-clock{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(44, 43, 43);
+    position: relative;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 10px solid rgba(64, 62, 62, 0.842);
+    box-shadow: 0px 0px 35px rgb(46, 38, 38,0.9);
+    background-image: url(./img/clock.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#second{
+    height: 90px;
+    width: 3px;
+    background-color: azure;
+    position: relative;
+    top: -65px;
+    left: 147px;
+    background-color: rgba(0, 0, 0, 0.929);
+    border-radius: 35px;
+}
+
+#minute{
+    height: 68px;
+    width: 5px;
+    background-color: azure;
+    position: relative;
+    top: 22px;
+    left: 146px;
+    background-color: rgba(7, 7, 7, 0.783);
+    border-radius: 15px;
+
+  
+}
+
+#hour{
+    height: 55px;
+    width: 7px;
+    background-color: rgb(4, 20, 20);
+    position: relative;
+    top: 97px;
+    left: 146px;
+    background-color: rgba(34, 32, 32, 0.621);
+    border-radius: 15px;
+    
+    
+}
+#second,#hour,#minute{
+    transform-origin:bottom;
+}
